@@ -1,0 +1,17 @@
+:root{
+    text-align: center;
+}
+#menu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+#menu{
+display: grid;
+max-width: 500px;
+grid-template-columns: repeat(5, 1fr);
+gap: 10px;
+}
